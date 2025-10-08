@@ -144,8 +144,8 @@ temp/
 .pnp.*
 
 # Image files (use optimized versions or CDN)
-src/assets/*.jpg
-src/assets/*.jpeg
-src/assets/*.png
-src/assets/*.JPG
-src/assets/*.PNG
+# src/assets/*.jpg
+# src/assets/*.jpeg
+# src/assets/*.png
+# src/assets/*.JPG
+# src/assets/*.PNG
