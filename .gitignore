@@ -143,7 +143,9 @@ temp/
 .yarn/install-state.gz
 .pnp.*
 
-# Large image files (use optimized versions or CDN)
-src/assets/ai-collage-spiral-clean.png
-src/assets/PFP.JPG
-src/assets/personalweb.png
+# Image files (use optimized versions or CDN)
+src/assets/*.jpg
+src/assets/*.jpeg
+src/assets/*.png
+src/assets/*.JPG
+src/assets/*.PNG
