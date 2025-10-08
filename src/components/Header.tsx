@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Moon, Sun, Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
@@ -113,14 +113,6 @@ export function Header() {
                   {item.name}
                 </motion.a>
               ))}
-              <Link
-                to="/admin"
-                className="block py-2 text-muted-foreground hover:text-foreground transition-colors duration-200 flex items-center gap-2"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                <BarChart3 className="w-4 h-4" />
-                Admin Dashboard
-              </Link>
             </motion.nav>
           )}
         </AnimatePresence>

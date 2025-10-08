@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Eye, EyeOff, Users, MapPin, Calendar, Globe, Trash2, Shield, BarChart3 } from 'lucide-react';
 import { useVisitorTracking } from '../hooks/useVisitorTracking';
@@ -204,7 +204,7 @@ export function AdminDashboard() {
             </h3>
             <div className="space-y-3 max-h-96 overflow-y-auto">
               {Object.entries(stats.visitorsByLocation)
-                .sort(([,a], [,b]) => b - a)
+                .sort(([,a], [,b]) => (b as number) - (a as number))
                 .map(([location, count], index) => (
                   <div key={location} className="flex items-center justify-between p-3 bg-secondary/50 rounded-lg">
                     <span className="text-sm font-medium">{location}</span>

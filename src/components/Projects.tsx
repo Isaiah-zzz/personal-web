@@ -1,6 +1,6 @@
+import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { ExternalLink, Github, ArrowUpRight } from 'lucide-react';
-import { useState } from 'react';
 
 export function Projects() {
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);
@@ -14,7 +14,7 @@ export function Projects() {
       tech: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
       github: 'https://github.com/Isaiah-zzz/Album-Collage',
       live: 'https://collage.isaiahzzz.dev/',
-      // featured: true
+      featured: false
     },
     {
       id: 2,
@@ -23,7 +23,8 @@ export function Projects() {
       image: 'src/assets/ATG.JPG',
       tech: ['C#', 'Unity', 'Aseprite', 'LDtk'],
       github: 'https://github.com/Isaiah-zzz/ATG',
-      live: 'https://github.com/Isaiah-zzz/ATG'
+      live: 'https://github.com/Isaiah-zzz/ATG',
+      featured: false
     },
     {
       id: 3,
@@ -32,7 +33,8 @@ export function Projects() {
       image: 'src/assets/shell.jpeg',
       tech: ['C', 'OS', 'Shell'],
       github: 'https://github.com/Isaiah-zzz/unix-shell',
-      live: 'https://github.com/Isaiah-zzz/unix-shell'
+      live: 'https://github.com/Isaiah-zzz/unix-shell',
+      featured: false
     },
     {
       id: 4,
@@ -41,7 +43,8 @@ export function Projects() {
       image: 'src/assets/personalweb.png',
       tech: ['React', 'Typescript', 'Tailwind CSS', 'Motion', 'UI Libraries'],
       github: 'https://github.com/Isaiah-zzz/personal-web',
-      live: '#'
+      live: '#',
+      featured: false
     },
     {
       id: 5,
@@ -50,7 +53,8 @@ export function Projects() {
       image: 'src/assets/database.jpeg',
       tech: ['C++', 'Database', 'Object-Oriented Programming', 'Multi-threaded Concurrency'],
       github: 'https://github.com/Isaiah-zzz/CS564-Stage4',
-      live: 'https://github.com/Isaiah-zzz/CS564-Stage4'
+      live: 'https://github.com/Isaiah-zzz/CS564-Stage4',
+      featured: false
     },
     // {
     //   id: 6,

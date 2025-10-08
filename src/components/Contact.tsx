@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Mail, MapPin, Phone, Send, Github, Linkedin, Twitter, FileText, CheckCircle } from 'lucide-react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 export function Contact() {

@@ -24,6 +24,7 @@ interface VisitorStats {
 
 const STORAGE_KEY = 'visitor_tracking_data';
 // Admin password from environment variable (set VITE_ADMIN_PASSWORD in .env file)
+// Fallback to a default password if environment variable is not available
 const ADMIN_PASSWORD = import.meta.env.VITE_ADMIN_PASSWORD || 'admin123';
 
 export function useVisitorTracking() {
