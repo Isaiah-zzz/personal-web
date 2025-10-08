@@ -95,17 +95,17 @@ export function About() {
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: 1.5 }}
                     >
-                      <span className="text-red-400">role</span><span className="text-muted-foreground">:</span> <span className="text-green-400">"Full Stack Developer"</span><span className="text-muted-foreground">,</span>
+                      <span className="text-red-400">role</span><span className="text-muted-foreground">:</span> <span className="text-green-400">"Student and Developer"</span><span className="text-muted-foreground">,</span>
                     </motion.div>
                     
-                    <motion.div
+                    {/* <motion.div
                       className="pl-4"
                       initial={{ opacity: 0, x: -10 }}
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: 2 }}
                     >
                       <span className="text-red-400">experience</span><span className="text-muted-foreground">:</span> <span className="text-blue-400">5</span><span className="text-muted-foreground">,</span>
-                    </motion.div>
+                    </motion.div> */}
                     
                     <motion.div
                       className="pl-4"
@@ -122,7 +122,7 @@ export function About() {
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: 3 }}
                     >
-                      <span className="text-red-400">motto</span><span className="text-muted-foreground">:</span> <span className="text-green-400">"Code with purpose, design with intention"</span>
+                      <span className="text-red-400">currently</span><span className="text-muted-foreground">:</span> <span className="text-green-400">Looking for summer 2026 internship</span>
                     </motion.div>
                     
                     <motion.div 
@@ -155,16 +155,15 @@ export function About() {
           >
             <div className="prose prose-neutral dark:prose-invert">
               <p className="text-lg leading-relaxed text-muted-foreground">
-                I'm a passionate full-stack developer with over 5 years of experience creating 
-                digital experiences that make a difference. My journey began with curiosity about 
-                how websites work, and it has evolved into a deep love for crafting elegant solutions 
-                to complex problems.
+              I’m Changyi Zhou, a computer science student and aspiring software developer. I love bringing ideas to life through clean, 
+              thoughtful code — from intuitive interfaces to robust backend logic. I’m constantly learning and experimenting to sharpen my skills 
+              and stay ahead in the ever-evolving world of technology.
               </p>
-              <p className="leading-relaxed text-muted-foreground">
+              {/* <p className="leading-relaxed text-muted-foreground">
                 Whether I'm architecting scalable backend systems, designing intuitive user interfaces, 
                 or optimizing performance, I approach every project with the same enthusiasm and 
                 attention to detail that drove me to become a developer.
-              </p>
+              </p> */}
             </div>
           </motion.div>
         </div>
@@ -202,7 +201,7 @@ export function About() {
           ))}
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -213,7 +212,7 @@ export function About() {
             When I'm not coding, you'll find me exploring new technologies, contributing to open source projects, 
             or sketching out the next big idea. I believe in writing code that not only works but tells a story.
           </p>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

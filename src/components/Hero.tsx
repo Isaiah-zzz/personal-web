@@ -93,9 +93,7 @@ export function Hero() {
               transition={{ delay: 0.4 }}
               className="text-lg text-muted-foreground max-w-md"
             >
-              Passionate about creating beautiful, functional
-              web experiences and turning ideas into reality
-              through clean, efficient code.
+              Passionate about developing reliable, scalable software that transforms ideas into real-world solutions through clean, efficient, and maintainable code.
             </motion.p>
 
             <motion.div

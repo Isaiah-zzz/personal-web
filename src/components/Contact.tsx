@@ -248,7 +248,7 @@ export function Contact() {
                           value={formData.name}
                           onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                           className="bg-transparent text-[#ce9178] border-none outline-none font-mono text-sm min-w-0 flex-1"
-                          placeholder="Your Name"
+                          placeholder=" Your Name"
                           required
                           style={{ width: `${Math.max(formData.name.length * 8 + 20, 100)}px` }}
                         />
@@ -265,7 +265,7 @@ export function Contact() {
                           value={formData.email}
                           onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                           className="bg-transparent text-[#ce9178] border-none outline-none font-mono text-sm min-w-0 flex-1"
-                          placeholder="your.email@example.com"
+                          placeholder=" your.email@example.com"
                           required
                           style={{ width: `${Math.max(formData.email.length * 8 + 20, 180)}px` }}
                         />
@@ -285,7 +285,7 @@ export function Contact() {
                           value={formData.message}
                           onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                           className="bg-transparent text-[#ce9178] border-none outline-none font-mono text-sm w-full resize-none leading-6"
-                          placeholder="Tell me about your project ideas, timeline, budget, or any questions you have..."
+                          placeholder=" Tell me about your project ideas, timeline, budget, or any questions you have..."
                           rows={4}
                           required
                           style={{ minHeight: '96px' }}
@@ -376,7 +376,7 @@ export function Contact() {
                         ) : (
                           <>
                             <Send className="w-5 h-5" />
-                            <span className="font-mono">Execute: Send Message</span>
+                            <span className="font-mono">Send Message</span>
                           </>
                         )}
                       </div>

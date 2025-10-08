@@ -40,7 +40,7 @@ export function Projects() {
       description: 'Personal portfolio with animated interactions and responsive design.',
       image: 'src/assets/personalweb.png',
       tech: ['React', 'Typescript', 'Tailwind CSS', 'Motion', 'UI Libraries'],
-      github: '#',
+      github: 'https://github.com/Isaiah-zzz/personal-web',
       live: '#'
     },
     {

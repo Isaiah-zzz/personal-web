@@ -25,7 +25,7 @@ export function Experience() {
       period: '2025 - Present',
       location: 'New York, NY',
       // description: 'Leading development of scalable web applications serving 100K+ users. Architecting microservices and mentoring junior developers.',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'AWS', 'Docker'],
+      technologies: ['Applied Machine Learning', 'AR/VR', 'Trustworthy AI', 'HCI'],
       type: 'school'
     },
     {
@@ -66,7 +66,7 @@ export function Experience() {
       period: '2021 - 2025',
       location: 'Madison, WI',
       // description: 'Started my development journey building simple websites and learning modern frameworks. Gained foundation in web development best practices.',
-      technologies: ['HTML/CSS', 'JavaScript', 'jQuery', 'Bootstrap'],
+      technologies: ['Operating Systems', 'Computer Graphics', 'Game Design', 'Database management', 'Big Data'],
       type: 'school'
     }
   ];
@@ -83,11 +83,11 @@ export function Experience() {
 
   const getCommitIcon = (type: string) => {
     switch (type) {
-      case 'promotion': return '🚀';
-      case 'feature': return '✨';
+      case 'school': return '🎓';
+      case 'intern': return '💻';
       case 'refactor': return '♻️';
       case 'init': return '🎉';
-      default: return '📝';
+      default: return '🎓';
     }
   };
 
@@ -102,9 +102,9 @@ export function Experience() {
           className="text-center mb-12"
         >
           <h2 className="text-3xl md:text-4xl mb-4">Git Log --experience</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
+          {/* <p className="text-muted-foreground max-w-2xl mx-auto">
             My professional journey tracked like a version control history
-          </p>
+          </p> */}
         </motion.div>
 
         {/* Terminal Window */}
