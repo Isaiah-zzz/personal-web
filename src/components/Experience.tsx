@@ -279,7 +279,7 @@ export function Experience() {
           className="text-center mt-12"
         >
           <motion.a
-            href="src/assets/ChangyiZhouResume.pdf"
+            href="/ChangyiZhouResume.pdf"
             download="Zhou_Changyi_Resume.pdf"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

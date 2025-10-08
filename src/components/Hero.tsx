@@ -148,7 +148,7 @@ export function Hero() {
                   {/* Main image with simple rounded border */}
                   <div className="relative w-full h-full rounded-2xl overflow-hidden border-4 border-gradient-to-br from-primary/30 via-blue-500/30 to-purple-500/30 shadow-2xl">
                     <img
-                      src="src/assets/PFP.JPG"
+                      src="/PFP.JPG"
                       alt="Changyi Zhou"
                       className="w-full h-full object-cover object-center"
                     />
