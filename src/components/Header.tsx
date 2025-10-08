@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
-import { Moon, Sun, Menu, X, BarChart3 } from 'lucide-react';
+import { Moon, Sun, Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Link } from 'react-router-dom';
 
 export function Header() {
   const [isDark, setIsDark] = useState(false);
@@ -61,13 +60,6 @@ export function Header() {
                 {item.name}
               </motion.a>
             ))}
-            <Link
-              to="/admin"
-              className="p-2 rounded-full bg-secondary hover:bg-accent transition-colors duration-200"
-              title="Admin Dashboard"
-            >
-              <BarChart3 className="w-4 h-4" />
-            </Link>
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
@@ -80,13 +72,6 @@ export function Header() {
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center space-x-4">
-            <Link
-              to="/admin"
-              className="p-2 rounded-full bg-secondary hover:bg-accent transition-colors duration-200"
-              title="Admin Dashboard"
-            >
-              <BarChart3 className="w-4 h-4" />
-            </Link>
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
@@ -128,14 +113,14 @@ export function Header() {
                   {item.name}
                 </motion.a>
               ))}
-              {/* <Link
+              <Link
                 to="/admin"
                 className="block py-2 text-muted-foreground hover:text-foreground transition-colors duration-200 flex items-center gap-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 <BarChart3 className="w-4 h-4" />
                 Admin Dashboard
-              </Link> */}
+              </Link>
             </motion.nav>
           )}
         </AnimatePresence>

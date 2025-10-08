@@ -23,7 +23,8 @@ interface VisitorStats {
 }
 
 const STORAGE_KEY = 'visitor_tracking_data';
-const ADMIN_PASSWORD = 'admin123'; // In production, use environment variables
+// Admin password from environment variable (set VITE_ADMIN_PASSWORD in .env file)
+const ADMIN_PASSWORD = import.meta.env.VITE_ADMIN_PASSWORD || 'admin123';
 
 export function useVisitorTracking() {
   const [visitorData, setVisitorData] = useState<VisitorData | null>(null);

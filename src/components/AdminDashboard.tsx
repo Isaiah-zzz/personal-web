@@ -64,7 +64,6 @@ export function AdminDashboard() {
           <div className="text-center mb-6">
             <Shield className="w-12 h-12 text-primary mx-auto mb-4" />
             <h1 className="text-2xl font-bold">Admin Access</h1>
-            <p className="text-muted-foreground">Enter password to view visitor statistics</p>
           </div>
 
           <form onSubmit={handleLogin} className="space-y-4">
