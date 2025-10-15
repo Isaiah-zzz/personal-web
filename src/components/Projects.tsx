@@ -56,15 +56,16 @@ export function Projects() {
       live: 'https://github.com/Isaiah-zzz/CS564-Stage4',
       featured: false
     },
-    // {
-    //   id: 6,
-    //   title: 'Mobile Banking App',
-    //   description: 'Secure mobile banking application with biometric authentication.',
-    //   image: 'https://images.unsplash.com/photo-1658953229625-aad99d7603b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzU5NjU3MzI0fDA&ixlib=rb-4.1.0&q=80&w=1080',
-    //   tech: ['React Native', 'Node.js', 'MongoDB', 'Encryption'],
-    //   github: '#',
-    //   live: '#'
-    // }
+    {
+      id: 6,
+      title: 'Computer Graphics Projects',
+      description: 'Series of computer graphics projects that I have worked on. Including: canvas animation, shader, and more.',
+      image: '/roundabout.png',
+      tech: ['JavaScript', 'WebGL', 'Animations', 'ML'],
+      github: 'https://github.com/Isaiah-zzz/Computer-Graphics',
+      live: 'https://graphicsprojects.netlify.app/',
+      featured: false
+    }
   ];
 
   return (
